@@ -1,0 +1,22 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "chat-app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "env-cmd -f ./config/dev.env nodemon src/index.js",
+    "start": "env-cmd -f ./config/dev.env node src/index.js"
+  },
+  "author": "Philippe Cuaz",
+  "license": "ISC",
+  "dependencies": {
+    "array.prototype.at": "^1.0.2",
+    "bad-words": "^3.0.4",
+    "express": "^4.17.1",
+    "socket.io": "^4.2.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.12"
+  }
+}
